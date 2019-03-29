@@ -1,0 +1,21 @@
+
+
+
+          SolidWorks Corporation - STEP Processor Error Log
+          ______________________________________________________
+
+                       STEP Post Processor
+                       ___________________
+
+
+STEP File Name: C:\Users\quiqu\Dropbox\DOCUMENTOS\Electronica\Proyectos\Robot Sumo V2\Jsumo\js4030-wheel-cad.stp
+
+
+Las superficies se procesaron satisfactoriamente
+para formar el sólido.
+STEP: la importación se ha completado.Advertencia: Surface problem...Las superficies se procesaron satisfactoriamente
+para formar el sólido.
+STEP: la importación se ha completado.
+Error: No se puede crear un sólido de superficies
+recortadas.
+STEP: la importación no se ha completado satisfactoriamente.
