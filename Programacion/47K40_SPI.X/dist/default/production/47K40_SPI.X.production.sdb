@@ -1,0 +1,347 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F47K40 ]
+[d frameptr 4065 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"20 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"52 E:\Dropbox\Datos de Programas\MPLABX\47K40_SPI.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"89
+[v _spi_out spi_out `(v  1 e 1 0 ]
+"50 E:\Dropbox\Datos de Programas\MPLABX\47K40_SPI.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"58
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"72
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"57 E:\Dropbox\Datos de Programas\MPLABX\47K40_SPI.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"65 E:\Dropbox\Datos de Programas\MPLABX\47K40_SPI.X\mcc_generated_files/spi1.c
+[v _SPI1_Initialize SPI1_Initialize `(v  1 e 1 0 ]
+"79
+[v _SPI1_Exchange8bit SPI1_Exchange8bit `(uc  1 e 1 0 ]
+[s S48 . 1 `uc 1 SSPCLKPPS 1 0 :5:0 
+]
+"3361 C:\Program Files (x86)\Microchip\xc8\v1.44\include\pic18f47k40.h
+[u S50 . 1 `S48 1 . 1 0 ]
+[v _SSP1CLKPPSbits SSP1CLKPPSbits `VES50  1 e 1 @3767 ]
+[s S55 . 1 `uc 1 SSPDATPPS 1 0 :5:0 
+]
+"3381
+[u S57 . 1 `S55 1 . 1 0 ]
+[v _SSP1DATPPSbits SSP1DATPPSbits `VES57  1 e 1 @3768 ]
+"5165
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @3800 ]
+"5305
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @3802 ]
+"5457
+[v _OSCEN OSCEN `VEuc  1 e 1 @3804 ]
+"5508
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @3805 ]
+"5566
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @3806 ]
+"5673
+[v _PMD0 PMD0 `VEuc  1 e 1 @3809 ]
+"5750
+[v _PMD1 PMD1 `VEuc  1 e 1 @3810 ]
+"5814
+[v _PMD2 PMD2 `VEuc  1 e 1 @3811 ]
+"5859
+[v _PMD3 PMD3 `VEuc  1 e 1 @3812 ]
+"5897
+[v _PMD4 PMD4 `VEuc  1 e 1 @3813 ]
+"5950
+[v _PMD5 PMD5 `VEuc  1 e 1 @3814 ]
+"6806
+[v _RC3PPS RC3PPS `VEuc  1 e 1 @3834 ]
+"6850
+[v _RC4PPS RC4PPS `VEuc  1 e 1 @3835 ]
+"7820
+[v _ODCONA ODCONA `VEuc  1 e 1 @3855 ]
+"7882
+[v _WPUA WPUA `VEuc  1 e 1 @3856 ]
+"7944
+[v _ANSELA ANSELA `VEuc  1 e 1 @3857 ]
+"8316
+[v _ODCONB ODCONB `VEuc  1 e 1 @3863 ]
+"8378
+[v _WPUB WPUB `VEuc  1 e 1 @3864 ]
+"8440
+[v _ANSELB ANSELB `VEuc  1 e 1 @3865 ]
+"8812
+[v _ODCONC ODCONC `VEuc  1 e 1 @3871 ]
+"8874
+[v _WPUC WPUC `VEuc  1 e 1 @3872 ]
+"8936
+[v _ANSELC ANSELC `VEuc  1 e 1 @3873 ]
+"9122
+[v _ODCOND ODCOND `VEuc  1 e 1 @3876 ]
+"9184
+[v _WPUD WPUD `VEuc  1 e 1 @3877 ]
+"9246
+[v _ANSELD ANSELD `VEuc  1 e 1 @3878 ]
+"9441
+[v _ODCONE ODCONE `VEuc  1 e 1 @3884 ]
+"9473
+[v _WPUE WPUE `VEuc  1 e 1 @3885 ]
+"9511
+[v _ANSELE ANSELE `VEuc  1 e 1 @3886 ]
+"15972
+[v _LATA LATA `VEuc  1 e 1 @3971 ]
+"16084
+[v _LATB LATB `VEuc  1 e 1 @3972 ]
+"16196
+[v _LATC LATC `VEuc  1 e 1 @3973 ]
+"16308
+[v _LATD LATD `VEuc  1 e 1 @3974 ]
+"16420
+[v _LATE LATE `VEuc  1 e 1 @3975 ]
+"16517
+[v _TRISA TRISA `VEuc  1 e 1 @3976 ]
+"16639
+[v _TRISB TRISB `VEuc  1 e 1 @3977 ]
+"16761
+[v _TRISC TRISC `VEuc  1 e 1 @3978 ]
+"16883
+[v _TRISD TRISD `VEuc  1 e 1 @3979 ]
+"17005
+[v _TRISE TRISE `VEuc  1 e 1 @3980 ]
+[s S111 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"17248
+[s S120 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 CCP2 1 0 :1:1 
+`uc 1 PA1 1 0 :1:2 
+]
+[s S124 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 PA2 1 0 :1:1 
+]
+[u S127 . 1 `S111 1 . 1 0 `S120 1 . 1 0 `S124 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES127  1 e 1 @3983 ]
+"17586
+[v _SSP1BUF SSP1BUF `VEuc  1 e 1 @3986 ]
+"17606
+[v _SSP1ADD SSP1ADD `VEuc  1 e 1 @3987 ]
+"17796
+[v _SSP1STAT SSP1STAT `VEuc  1 e 1 @3989 ]
+[s S214 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_NOT_W 1 0 :1:2 
+]
+"17945
+[s S217 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 D_NOT_A 1 0 :1:5 
+]
+[s S220 . 1 `uc 1 BF 1 0 :1:0 
+`uc 1 UA 1 0 :1:1 
+`uc 1 R_nW 1 0 :1:2 
+`uc 1 S 1 0 :1:3 
+`uc 1 P 1 0 :1:4 
+`uc 1 D_nA 1 0 :1:5 
+`uc 1 CKE 1 0 :1:6 
+`uc 1 SMP 1 0 :1:7 
+]
+[s S229 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_A 1 0 :1:5 
+]
+[s S234 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nW 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nA 1 0 :1:5 
+]
+[s S239 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_WRITE 1 0 :1:2 
+]
+[s S242 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_ADDRESS 1 0 :1:5 
+]
+[s S245 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nWRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nADDRESS 1 0 :1:5 
+]
+[s S250 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 READ_WRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 DATA_ADDRESS 1 0 :1:5 
+]
+[s S255 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 I2C_READ 1 0 :1:2 
+`uc 1 I2C_START 1 0 :1:3 
+`uc 1 I2C_STOP 1 0 :1:4 
+`uc 1 I2C_DAT 1 0 :1:5 
+]
+[s S261 . 1 `uc 1 BF1 1 0 :1:0 
+`uc 1 UA1 1 0 :1:1 
+`uc 1 R 1 0 :1:2 
+`uc 1 START 1 0 :1:3 
+`uc 1 STOP 1 0 :1:4 
+`uc 1 D 1 0 :1:5 
+`uc 1 CKE1 1 0 :1:6 
+`uc 1 SMP1 1 0 :1:7 
+]
+[s S270 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 RW 1 0 :1:2 
+`uc 1 START1 1 0 :1:3 
+`uc 1 STOP1 1 0 :1:4 
+`uc 1 DA 1 0 :1:5 
+]
+[s S276 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 RW1 1 0 :1:2 
+`uc 1 I2C_START1 1 0 :1:3 
+`uc 1 I2C_STOP2 1 0 :1:4 
+`uc 1 DA1 1 0 :1:5 
+]
+[s S282 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 I2C_READ1 1 0 :1:2 
+`uc 1 S2 1 0 :1:3 
+`uc 1 P2 1 0 :1:4 
+`uc 1 DATA_ADDRESS1 1 0 :1:5 
+]
+[s S288 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 READ_WRITE1 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_A1 1 0 :1:5 
+]
+[s S293 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 D_NOT_A1 1 0 :1:5 
+]
+[s S296 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_W1 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_nA1 1 0 :1:5 
+]
+[s S301 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_NOT_W1 1 0 :1:2 
+]
+[s S304 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_nW1 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 I2C_DAT1 1 0 :1:5 
+]
+[s S309 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_W2 1 0 :1:2 
+]
+[s S312 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_A2 1 0 :1:5 
+]
+[s S315 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nW2 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nA2 1 0 :1:5 
+]
+[s S320 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_WRITE1 1 0 :1:2 
+]
+[s S323 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_ADDRESS1 1 0 :1:5 
+]
+[s S326 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nWRITE1 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nADDRESS1 1 0 :1:5 
+]
+[u S331 . 1 `S214 1 . 1 0 `S217 1 . 1 0 `S220 1 . 1 0 `S229 1 . 1 0 `S234 1 . 1 0 `S239 1 . 1 0 `S242 1 . 1 0 `S245 1 . 1 0 `S250 1 . 1 0 `S255 1 . 1 0 `S261 1 . 1 0 `S270 1 . 1 0 `S276 1 . 1 0 `S282 1 . 1 0 `S288 1 . 1 0 `S293 1 . 1 0 `S296 1 . 1 0 `S301 1 . 1 0 `S304 1 . 1 0 `S309 1 . 1 0 `S312 1 . 1 0 `S315 1 . 1 0 `S320 1 . 1 0 `S323 1 . 1 0 `S326 1 . 1 0 ]
+[v _SSP1STATbits SSP1STATbits `VES331  1 e 1 @3989 ]
+"18250
+[v _SSP1CON1 SSP1CON1 `VEuc  1 e 1 @3990 ]
+[s S168 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"18280
+[s S174 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+]
+[s S179 . 1 `uc 1 SSPM01 1 0 :1:0 
+`uc 1 SSPM11 1 0 :1:1 
+`uc 1 SSPM21 1 0 :1:2 
+`uc 1 SSPM31 1 0 :1:3 
+`uc 1 CKP1 1 0 :1:4 
+`uc 1 SSPEN1 1 0 :1:5 
+`uc 1 SSPOV1 1 0 :1:6 
+`uc 1 WCOL1 1 0 :1:7 
+]
+[u S188 . 1 `S168 1 . 1 0 `S174 1 . 1 0 `S179 1 . 1 0 ]
+[v _SSP1CON1bits SSP1CON1bits `VES188  1 e 1 @3990 ]
+"50 E:\Dropbox\Datos de Programas\MPLABX\47K40_SPI.X\main.c
+[v _a a `uc  1 e 1 0 ]
+"52
+[v _main main `(v  1 e 1 0 ]
+{
+"85
+} 0
+"89
+[v _spi_out spi_out `(v  1 e 1 0 ]
+{
+[v spi_out@byte byte `uc  1 a 1 wreg ]
+[v spi_out@byte byte `uc  1 a 1 wreg ]
+"91
+[v spi_out@byte byte `uc  1 a 1 1 ]
+"95
+} 0
+"79 E:\Dropbox\Datos de Programas\MPLABX\47K40_SPI.X\mcc_generated_files/spi1.c
+[v _SPI1_Exchange8bit SPI1_Exchange8bit `(uc  1 e 1 0 ]
+{
+[v SPI1_Exchange8bit@data data `uc  1 a 1 wreg ]
+[v SPI1_Exchange8bit@data data `uc  1 a 1 wreg ]
+"82
+[v SPI1_Exchange8bit@data data `uc  1 a 1 0 ]
+"91
+} 0
+"50 E:\Dropbox\Datos de Programas\MPLABX\47K40_SPI.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"56
+} 0
+"65 E:\Dropbox\Datos de Programas\MPLABX\47K40_SPI.X\mcc_generated_files/spi1.c
+[v _SPI1_Initialize SPI1_Initialize `(v  1 e 1 0 ]
+{
+"77
+} 0
+"72 E:\Dropbox\Datos de Programas\MPLABX\47K40_SPI.X\mcc_generated_files/mcc.c
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+{
+"86
+} 0
+"57 E:\Dropbox\Datos de Programas\MPLABX\47K40_SPI.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"115
+} 0
+"58 E:\Dropbox\Datos de Programas\MPLABX\47K40_SPI.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"70
+} 0

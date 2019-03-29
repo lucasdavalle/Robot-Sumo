@@ -1,0 +1,1732 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F47K40 ]
+[d frameptr 4065 ]
+"80 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\mcc_generated_files/drivers/i2c_master.c
+[e E11982 . `uc
+I2C_IDLE 0
+I2C_SEND_ADR_READ 1
+I2C_SEND_ADR_WRITE 2
+I2C_TX 3
+I2C_RX 4
+I2C_RCEN 5
+I2C_TX_EMPTY 6
+I2C_SEND_RESTART_READ 7
+I2C_SEND_RESTART_WRITE 8
+I2C_SEND_RESTART 9
+I2C_SEND_STOP 10
+I2C_RX_DO_ACK 11
+I2C_RX_DO_NACK_STOP 12
+I2C_RX_DO_NACK_RESTART 13
+I2C_RESET 14
+I2C_ADDRESS_NACK 15
+]
+[e E11811 . `uc
+I2C_NOERR 0
+I2C_BUSY 1
+I2C_FAIL 2
+]
+[e E11816 . `uc
+i2c_stop 1
+i2c_restart_read 2
+i2c_restart_write 3
+i2c_continue 4
+i2c_reset_link 5
+]
+"91
+[e E12000 . `uc
+i2c_dataComplete 0
+i2c_writeCollision 1
+i2c_addressNACK 2
+i2c_dataNACK 3
+i2c_timeOut 4
+i2c_NULL 5
+]
+"26 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\mcc_generated_files/drivers/i2c_types.c
+[e E96 . `uc
+i2c_stop 1
+i2c_restart_read 2
+i2c_restart_write 3
+i2c_continue 4
+i2c_reset_link 5
+]
+"32 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\mcc_generated_files/drivers/i2c_simple_master.c
+[e E97 . `uc
+i2c_stop 1
+i2c_restart_read 2
+i2c_restart_write 3
+i2c_continue 4
+i2c_reset_link 5
+]
+"40
+[e E92 . `uc
+I2C_NOERR 0
+I2C_BUSY 1
+I2C_FAIL 2
+]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\atan.c
+[v _atan atan `(d  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\atan2.c
+[v _atan2 atan2 `(d  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"32 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+"409 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+[v _fround fround `(d  1 s 3 fround ]
+"425
+[v _scale scale `(d  1 s 3 scale ]
+"492
+[v _sprintf sprintf `(i  1 e 2 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\evalpoly.c
+[v _eval_poly eval_poly `(d  1 e 3 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fabs.c
+[v _fabs fabs `(d  1 e 3 0 ]
+"60 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fldivl.c
+[v __div_to_l_ _div_to_l_ `(ul  1 e 4 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"60 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdivl.c
+[v __tdiv_to_l_ _tdiv_to_l_ `(ul  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftge.c
+[v ___ftge __ftge `(b  1 e 0 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftneg.c
+[v ___ftneg __ftneg `(f  1 e 3 0 ]
+"20 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"44 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\isdigit.c
+[v _isdigit isdigit `(b  1 e 0 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+"35 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\lltoft.c
+[v ___lltoft __lltoft `(f  1 e 3 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"6 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\drv_lcd.c
+[v _LCD_init LCD_init `(v  1 e 1 0 ]
+"80
+[v _LCD_clear LCD_clear `(v  1 e 1 0 ]
+"92
+[v _LCD_setCursor LCD_setCursor `(v  1 e 1 0 ]
+"111
+[v _LCD_print LCD_print `(uc  1 e 1 0 ]
+"130
+[v _LCD_display LCD_display `(v  1 e 1 0 ]
+"223
+[v _LCD_command LCD_command `(v  1 e 1 0 ]
+"228
+[v _LCD_write LCD_write `(v  1 e 1 0 ]
+"239
+[v _LCD_send LCD_send `(v  1 e 1 0 ]
+"246
+[v _LCD_RS_SET LCD_RS_SET `(v  1 e 1 0 ]
+"259
+[v _LCD_EN_SET LCD_EN_SET `(v  1 e 1 0 ]
+"273
+[v _LCD_BL_SET LCD_BL_SET `(v  1 e 1 0 ]
+"292
+[v _LCD_pulseEnable LCD_pulseEnable `(v  1 e 1 0 ]
+"302
+[v _LCD_write4bits LCD_write4bits `(v  1 e 1 0 ]
+"344
+[v _LCD_writeI2C LCD_writeI2C `(v  1 e 1 0 ]
+"7 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\drv_qmc5883l.c
+[v _XYZ_Init XYZ_Init `(v  1 e 1 0 ]
+"21
+[v _XYZ_WriteReg XYZ_WriteReg `(v  1 e 1 0 ]
+"29
+[v _XYZ_setMode XYZ_setMode `(v  1 e 1 0 ]
+"39
+[v _XYZ_azimuth XYZ_azimuth `(f  1 e 3 0 ]
+"45
+[v _XYZ_Read XYZ_Read `(v  1 e 1 0 ]
+"55 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"89 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\mcc_generated_files/drivers/i2c_master.c
+[v _i2c_setDataCompleteCallback i2c_setDataCompleteCallback `(v  1 e 1 0 ]
+[v i2_i2c_setDataCompleteCallback i2c_setDataCompleteCallback `(v  1 e 1 0 ]
+"99
+[v _i2c_setAddressNACKCallback i2c_setAddressNACKCallback `(v  1 e 1 0 ]
+"116
+[v _i2c_open i2c_open `(E11811  1 e 1 0 ]
+"162
+[v _i2c_close i2c_close `(E11811  1 e 1 0 ]
+"184
+[v _i2c_setBuffer i2c_setBuffer `(v  1 e 1 0 ]
+[v i2_i2c_setBuffer i2c_setBuffer `(v  1 e 1 0 ]
+"193
+[v _i2c_masterOperation i2c_masterOperation `(E11811  1 e 1 0 ]
+"217
+[v _i2c_masterRead i2c_masterRead `(E11811  1 e 1 0 ]
+"222
+[v _i2c_masterWrite i2c_masterWrite `(E11811  1 e 1 0 ]
+"230
+[v _i2c_poller i2c_poller `T(v  1 e 1 0 ]
+"239
+[v _do_I2C_RESET do_I2C_RESET `(E11982  1 s 1 do_I2C_RESET ]
+[v i2_do_I2C_RESET do_I2C_RESET `(E11982  1 s 1 i2_do_I2C_RESET ]
+"247
+[v _do_I2C_IDLE do_I2C_IDLE `(E11982  1 s 1 do_I2C_IDLE ]
+[v i2_do_I2C_IDLE do_I2C_IDLE `(E11982  1 s 1 i2_do_I2C_IDLE ]
+"254
+[v _do_I2C_SEND_RESTART_READ do_I2C_SEND_RESTART_READ `(E11982  1 s 1 do_I2C_SEND_RESTART_READ ]
+[v i2_do_I2C_SEND_RESTART_READ do_I2C_SEND_RESTART_READ `(E11982  1 s 1 i2_do_I2C_SEND_RESTART_READ ]
+"260
+[v _do_I2C_SEND_RESTART_WRITE do_I2C_SEND_RESTART_WRITE `(E11982  1 s 1 do_I2C_SEND_RESTART_WRITE ]
+[v i2_do_I2C_SEND_RESTART_WRITE do_I2C_SEND_RESTART_WRITE `(E11982  1 s 1 i2_do_I2C_SEND_RESTART_WRITE ]
+"266
+[v _do_I2C_SEND_RESTART do_I2C_SEND_RESTART `(E11982  1 s 1 do_I2C_SEND_RESTART ]
+[v i2_do_I2C_SEND_RESTART do_I2C_SEND_RESTART `(E11982  1 s 1 i2_do_I2C_SEND_RESTART ]
+"272
+[v _do_I2C_SEND_STOP do_I2C_SEND_STOP `(E11982  1 s 1 do_I2C_SEND_STOP ]
+[v i2_do_I2C_SEND_STOP do_I2C_SEND_STOP `(E11982  1 s 1 i2_do_I2C_SEND_STOP ]
+"278
+[v _do_I2C_SEND_ADR_READ do_I2C_SEND_ADR_READ `(E11982  1 s 1 do_I2C_SEND_ADR_READ ]
+[v i2_do_I2C_SEND_ADR_READ do_I2C_SEND_ADR_READ `(E11982  1 s 1 i2_do_I2C_SEND_ADR_READ ]
+"285
+[v _do_I2C_SEND_ADR_WRITE do_I2C_SEND_ADR_WRITE `(E11982  1 s 1 do_I2C_SEND_ADR_WRITE ]
+[v i2_do_I2C_SEND_ADR_WRITE do_I2C_SEND_ADR_WRITE `(E11982  1 s 1 i2_do_I2C_SEND_ADR_WRITE ]
+"292
+[v _do_I2C_RCEN do_I2C_RCEN `(E11982  1 s 1 do_I2C_RCEN ]
+[v i2_do_I2C_RCEN do_I2C_RCEN `(E11982  1 s 1 i2_do_I2C_RCEN ]
+"299
+[v _do_I2C_DO_ACK do_I2C_DO_ACK `(E11982  1 s 1 do_I2C_DO_ACK ]
+[v i2_do_I2C_DO_ACK do_I2C_DO_ACK `(E11982  1 s 1 i2_do_I2C_DO_ACK ]
+"305
+[v _do_I2C_DO_NACK_STOP do_I2C_DO_NACK_STOP `(E11982  1 s 1 do_I2C_DO_NACK_STOP ]
+[v i2_do_I2C_DO_NACK_STOP do_I2C_DO_NACK_STOP `(E11982  1 s 1 i2_do_I2C_DO_NACK_STOP ]
+"311
+[v _do_I2C_DO_NACK_RESTART do_I2C_DO_NACK_RESTART `(E11982  1 s 1 do_I2C_DO_NACK_RESTART ]
+[v i2_do_I2C_DO_NACK_RESTART do_I2C_DO_NACK_RESTART `(E11982  1 s 1 i2_do_I2C_DO_NACK_RESTART ]
+"319
+[v _do_I2C_DO_ADDRESS_NACK do_I2C_DO_ADDRESS_NACK `(E11982  1 s 1 do_I2C_DO_ADDRESS_NACK ]
+[v i2_do_I2C_DO_ADDRESS_NACK do_I2C_DO_ADDRESS_NACK `(E11982  1 s 1 i2_do_I2C_DO_ADDRESS_NACK ]
+"333
+[v _do_I2C_TX do_I2C_TX `(E11982  1 s 1 do_I2C_TX ]
+[v i2_do_I2C_TX do_I2C_TX `(E11982  1 s 1 i2_do_I2C_TX ]
+"357
+[v _do_I2C_RX do_I2C_RX `(E11982  1 s 1 do_I2C_RX ]
+[v i2_do_I2C_RX do_I2C_RX `(E11982  1 s 1 i2_do_I2C_RX ]
+"382
+[v _do_I2C_TX_EMPTY do_I2C_TX_EMPTY `(E11982  1 s 1 do_I2C_TX_EMPTY ]
+[v i2_do_I2C_TX_EMPTY do_I2C_TX_EMPTY `(E11982  1 s 1 i2_do_I2C_TX_EMPTY ]
+"419
+[v _i2c_ISR i2c_ISR `(v  1 e 1 0 ]
+[v i2_i2c_ISR i2c_ISR `(v  1 e 1 0 ]
+"435
+[v _i2c_busCollisionISR i2c_busCollisionISR `(v  1 e 1 0 ]
+"443
+[v _returnStop returnStop `(E11816  1 s 1 returnStop ]
+[v i2_returnStop returnStop `(E11816  1 s 1 i2_returnStop ]
+"448
+[v _returnReset returnReset `(E11816  1 s 1 returnReset ]
+[v i2_returnReset returnReset `(E11816  1 s 1 i2_returnReset ]
+"453
+[v _setCallBack setCallBack `(v  1 s 1 setCallBack ]
+[v i2_setCallBack setCallBack `(v  1 s 1 i2_setCallBack ]
+"31 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\mcc_generated_files/drivers/i2c_simple_master.c
+[v _wr1RegCompleteHandler wr1RegCompleteHandler `(E97  1 s 1 wr1RegCompleteHandler ]
+[v i2_wr1RegCompleteHandler wr1RegCompleteHandler `(E97  1 s 1 i2_wr1RegCompleteHandler ]
+"48
+[v _i2c_writeNBytes i2c_writeNBytes `(v  1 e 1 0 ]
+"58
+[v _rd1RegCompleteHandler rd1RegCompleteHandler `(E97  1 s 1 rd1RegCompleteHandler ]
+[v i2_rd1RegCompleteHandler rd1RegCompleteHandler `(E97  1 s 1 i2_rd1RegCompleteHandler ]
+"87
+[v _rd2RegCompleteHandler rd2RegCompleteHandler `(E97  1 s 1 rd2RegCompleteHandler ]
+[v i2_rd2RegCompleteHandler rd2RegCompleteHandler `(E97  1 s 1 i2_rd2RegCompleteHandler ]
+"110
+[v _wr2RegCompleteHandler wr2RegCompleteHandler `(E97  1 s 1 wr2RegCompleteHandler ]
+[v i2_wr2RegCompleteHandler wr2RegCompleteHandler `(E97  1 s 1 i2_wr2RegCompleteHandler ]
+"134
+[v _rdBlkRegCompleteHandler rdBlkRegCompleteHandler `(E97  1 s 1 rdBlkRegCompleteHandler ]
+[v i2_rdBlkRegCompleteHandler rdBlkRegCompleteHandler `(E97  1 s 1 i2_rdBlkRegCompleteHandler ]
+"156
+[v _i2c_readNBytes i2c_readNBytes `(v  1 e 1 0 ]
+"35 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\mcc_generated_files/drivers/i2c_types.c
+[v _i2c_restartWrite i2c_restartWrite `(E96  1 e 1 0 ]
+[v i2_i2c_restartWrite i2c_restartWrite `(E96  1 e 1 0 ]
+"38 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\mcc_generated_files/i2c1_driver.c
+[v _mssp1_enableIRQ mssp1_enableIRQ `T(v  1 e 1 0 ]
+"43
+[v _mssp1_IRQisEnabled mssp1_IRQisEnabled `T(b  1 e 0 0 ]
+"48
+[v _mssp1_disableIRQ mssp1_disableIRQ `T(v  1 e 1 0 ]
+"53
+[v _mssp1_clearIRQ mssp1_clearIRQ `T(v  1 e 1 0 ]
+[v i2_mssp1_clearIRQ mssp1_clearIRQ `T(v  1 e 1 0 ]
+"58
+[v _mssp1_setIRQ mssp1_setIRQ `T(v  1 e 1 0 ]
+[v i2_mssp1_setIRQ mssp1_setIRQ `T(v  1 e 1 0 ]
+"68
+[v _mssp1_waitForEvent mssp1_waitForEvent `T(v  1 e 1 0 ]
+"83
+[v _i2c1_driver_open i2c1_driver_open `(b  1 e 0 0 ]
+"141
+[v _i2c1_driver_resetBus i2c1_driver_resetBus `T(v  1 e 1 0 ]
+[v i2_i2c1_driver_resetBus i2c1_driver_resetBus `T(v  1 e 1 0 ]
+"146
+[v _i2c1_driver_start i2c1_driver_start `T(v  1 e 1 0 ]
+"151
+[v _i2c1_driver_restart i2c1_driver_restart `T(v  1 e 1 0 ]
+[v i2_i2c1_driver_restart i2c1_driver_restart `T(v  1 e 1 0 ]
+"156
+[v _i2c1_driver_stop i2c1_driver_stop `T(v  1 e 1 0 ]
+[v i2_i2c1_driver_stop i2c1_driver_stop `T(v  1 e 1 0 ]
+"161
+[v _i2c1_driver_isNACK i2c1_driver_isNACK `T(b  1 e 0 0 ]
+[v i2_i2c1_driver_isNACK i2c1_driver_isNACK `T(b  1 e 0 0 ]
+"166
+[v _i2c1_driver_startRX i2c1_driver_startRX `T(v  1 e 1 0 ]
+[v i2_i2c1_driver_startRX i2c1_driver_startRX `T(v  1 e 1 0 ]
+"171
+[v _i2c1_driver_getRXData i2c1_driver_getRXData `T(uc  1 e 1 0 ]
+[v i2_i2c1_driver_getRXData i2c1_driver_getRXData `T(uc  1 e 1 0 ]
+"186
+[v _i2c1_driver_TXData i2c1_driver_TXData `T(v  1 e 1 0 ]
+[v i2_i2c1_driver_TXData i2c1_driver_TXData `T(v  1 e 1 0 ]
+"196
+[v _i2c1_driver_sendACK i2c1_driver_sendACK `T(v  1 e 1 0 ]
+[v i2_i2c1_driver_sendACK i2c1_driver_sendACK `T(v  1 e 1 0 ]
+"202
+[v _i2c1_driver_sendNACK i2c1_driver_sendNACK `T(v  1 e 1 0 ]
+[v i2_i2c1_driver_sendNACK i2c1_driver_sendNACK `T(v  1 e 1 0 ]
+"253
+[v _i2c1_driver_clearBusCollision i2c1_driver_clearBusCollision `T(v  1 e 1 0 ]
+"258
+[v _i2c1_driver_setBusCollisionISR i2c1_driver_setBusCollisionISR `T(v  1 e 1 0 ]
+"262
+[v _i2c1_driver_setI2cISR i2c1_driver_setI2cISR `T(v  1 e 1 0 ]
+"52 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+"58
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+"50 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"58
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"72
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"57 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+[s S235 . 1 `uc 1 SSPCLKPPS 1 0 :5:0 
+]
+"3361 C:\Program Files (x86)\Microchip\xc8\v1.44\include\pic18f47k40.h
+[u S237 . 1 `S235 1 . 1 0 ]
+[v _SSP1CLKPPSbits SSP1CLKPPSbits `VES237  1 e 1 @3767 ]
+[s S242 . 1 `uc 1 SSPDATPPS 1 0 :5:0 
+]
+"3381
+[u S244 . 1 `S242 1 . 1 0 ]
+[v _SSP1DATPPSbits SSP1DATPPSbits `VES244  1 e 1 @3768 ]
+[s S94 . 1 `uc 1 SSP1IE 1 0 :1:0 
+`uc 1 BCL1IE 1 0 :1:1 
+`uc 1 SSP2IE 1 0 :1:2 
+`uc 1 BCL2IE 1 0 :1:3 
+`uc 1 TX1IE 1 0 :1:4 
+`uc 1 RC1IE 1 0 :1:5 
+`uc 1 TX2IE 1 0 :1:6 
+`uc 1 RC2IE 1 0 :1:7 
+]
+"3978
+[s S103 . 1 `uc 1 RXB0IE 1 0 :1:0 
+`uc 1 RXB1IE 1 0 :1:1 
+`uc 1 TXB0IE 1 0 :1:2 
+`uc 1 TXB1IE 1 0 :1:3 
+`uc 1 TXB2IE 1 0 :1:4 
+]
+[s S109 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RXBNIE 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TXBNIE 1 0 :1:4 
+]
+[u S114 . 1 `S94 1 . 1 0 `S103 1 . 1 0 `S109 1 . 1 0 ]
+[v _PIE3bits PIE3bits `VES114  1 e 1 @3781 ]
+[s S139 . 1 `uc 1 SSP1IF 1 0 :1:0 
+`uc 1 BCL1IF 1 0 :1:1 
+`uc 1 SSP2IF 1 0 :1:2 
+`uc 1 BCL2IF 1 0 :1:3 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+`uc 1 TX2IF 1 0 :1:6 
+`uc 1 RC2IF 1 0 :1:7 
+]
+"4377
+[s S148 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RXBNIF 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TXBNIF 1 0 :1:4 
+]
+[u S153 . 1 `S139 1 . 1 0 `S148 1 . 1 0 ]
+[v _PIR3bits PIR3bits `VES153  1 e 1 @3789 ]
+"5165
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @3800 ]
+"5305
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @3802 ]
+"5457
+[v _OSCEN OSCEN `VEuc  1 e 1 @3804 ]
+"5508
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @3805 ]
+"5566
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @3806 ]
+"5673
+[v _PMD0 PMD0 `VEuc  1 e 1 @3809 ]
+"5750
+[v _PMD1 PMD1 `VEuc  1 e 1 @3810 ]
+"5814
+[v _PMD2 PMD2 `VEuc  1 e 1 @3811 ]
+"5859
+[v _PMD3 PMD3 `VEuc  1 e 1 @3812 ]
+"5897
+[v _PMD4 PMD4 `VEuc  1 e 1 @3813 ]
+"5950
+[v _PMD5 PMD5 `VEuc  1 e 1 @3814 ]
+"6806
+[v _RC3PPS RC3PPS `VEuc  1 e 1 @3834 ]
+"6850
+[v _RC4PPS RC4PPS `VEuc  1 e 1 @3835 ]
+"7820
+[v _ODCONA ODCONA `VEuc  1 e 1 @3855 ]
+"7882
+[v _WPUA WPUA `VEuc  1 e 1 @3856 ]
+"7944
+[v _ANSELA ANSELA `VEuc  1 e 1 @3857 ]
+"8316
+[v _ODCONB ODCONB `VEuc  1 e 1 @3863 ]
+"8378
+[v _WPUB WPUB `VEuc  1 e 1 @3864 ]
+"8440
+[v _ANSELB ANSELB `VEuc  1 e 1 @3865 ]
+"8812
+[v _ODCONC ODCONC `VEuc  1 e 1 @3871 ]
+"8874
+[v _WPUC WPUC `VEuc  1 e 1 @3872 ]
+"8936
+[v _ANSELC ANSELC `VEuc  1 e 1 @3873 ]
+"9122
+[v _ODCOND ODCOND `VEuc  1 e 1 @3876 ]
+"9184
+[v _WPUD WPUD `VEuc  1 e 1 @3877 ]
+"9246
+[v _ANSELD ANSELD `VEuc  1 e 1 @3878 ]
+"9441
+[v _ODCONE ODCONE `VEuc  1 e 1 @3884 ]
+"9473
+[v _WPUE WPUE `VEuc  1 e 1 @3885 ]
+"9511
+[v _ANSELE ANSELE `VEuc  1 e 1 @3886 ]
+"15972
+[v _LATA LATA `VEuc  1 e 1 @3971 ]
+"16084
+[v _LATB LATB `VEuc  1 e 1 @3972 ]
+"16196
+[v _LATC LATC `VEuc  1 e 1 @3973 ]
+"16308
+[v _LATD LATD `VEuc  1 e 1 @3974 ]
+"16420
+[v _LATE LATE `VEuc  1 e 1 @3975 ]
+"16517
+[v _TRISA TRISA `VEuc  1 e 1 @3976 ]
+"16639
+[v _TRISB TRISB `VEuc  1 e 1 @3977 ]
+"16761
+[v _TRISC TRISC `VEuc  1 e 1 @3978 ]
+"16883
+[v _TRISD TRISD `VEuc  1 e 1 @3979 ]
+"17005
+[v _TRISE TRISE `VEuc  1 e 1 @3980 ]
+"17586
+[v _SSP1BUF SSP1BUF `VEuc  1 e 1 @3986 ]
+"17606
+[v _SSP1ADD SSP1ADD `VEuc  1 e 1 @3987 ]
+"17726
+[v _SSP1MSK SSP1MSK `VEuc  1 e 1 @3988 ]
+"17796
+[v _SSP1STAT SSP1STAT `VEuc  1 e 1 @3989 ]
+[s S432 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_NOT_W 1 0 :1:2 
+]
+"17945
+[s S435 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 D_NOT_A 1 0 :1:5 
+]
+[s S438 . 1 `uc 1 BF 1 0 :1:0 
+`uc 1 UA 1 0 :1:1 
+`uc 1 R_nW 1 0 :1:2 
+`uc 1 S 1 0 :1:3 
+`uc 1 P 1 0 :1:4 
+`uc 1 D_nA 1 0 :1:5 
+`uc 1 CKE 1 0 :1:6 
+`uc 1 SMP 1 0 :1:7 
+]
+[s S447 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_A 1 0 :1:5 
+]
+[s S452 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nW 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nA 1 0 :1:5 
+]
+[s S457 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_WRITE 1 0 :1:2 
+]
+[s S460 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_ADDRESS 1 0 :1:5 
+]
+[s S463 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nWRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nADDRESS 1 0 :1:5 
+]
+[s S468 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 READ_WRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 DATA_ADDRESS 1 0 :1:5 
+]
+[s S473 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 I2C_READ 1 0 :1:2 
+`uc 1 I2C_START 1 0 :1:3 
+`uc 1 I2C_STOP 1 0 :1:4 
+`uc 1 I2C_DAT 1 0 :1:5 
+]
+[s S479 . 1 `uc 1 BF1 1 0 :1:0 
+`uc 1 UA1 1 0 :1:1 
+`uc 1 R 1 0 :1:2 
+`uc 1 START 1 0 :1:3 
+`uc 1 STOP 1 0 :1:4 
+`uc 1 D 1 0 :1:5 
+`uc 1 CKE1 1 0 :1:6 
+`uc 1 SMP1 1 0 :1:7 
+]
+[s S488 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 RW 1 0 :1:2 
+`uc 1 START1 1 0 :1:3 
+`uc 1 STOP1 1 0 :1:4 
+`uc 1 DA 1 0 :1:5 
+]
+[s S494 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 RW1 1 0 :1:2 
+`uc 1 I2C_START1 1 0 :1:3 
+`uc 1 I2C_STOP2 1 0 :1:4 
+`uc 1 DA1 1 0 :1:5 
+]
+[s S500 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 I2C_READ1 1 0 :1:2 
+`uc 1 S2 1 0 :1:3 
+`uc 1 P2 1 0 :1:4 
+`uc 1 DATA_ADDRESS1 1 0 :1:5 
+]
+[s S506 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 READ_WRITE1 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_A1 1 0 :1:5 
+]
+[s S511 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 D_NOT_A1 1 0 :1:5 
+]
+[s S514 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_W1 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_nA1 1 0 :1:5 
+]
+[s S519 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_NOT_W1 1 0 :1:2 
+]
+[s S522 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_nW1 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 I2C_DAT1 1 0 :1:5 
+]
+[s S527 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_W2 1 0 :1:2 
+]
+[s S530 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_A2 1 0 :1:5 
+]
+[s S533 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nW2 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nA2 1 0 :1:5 
+]
+[s S538 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_WRITE1 1 0 :1:2 
+]
+[s S541 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_ADDRESS1 1 0 :1:5 
+]
+[s S544 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nWRITE1 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nADDRESS1 1 0 :1:5 
+]
+[u S549 . 1 `S432 1 . 1 0 `S435 1 . 1 0 `S438 1 . 1 0 `S447 1 . 1 0 `S452 1 . 1 0 `S457 1 . 1 0 `S460 1 . 1 0 `S463 1 . 1 0 `S468 1 . 1 0 `S473 1 . 1 0 `S479 1 . 1 0 `S488 1 . 1 0 `S494 1 . 1 0 `S500 1 . 1 0 `S506 1 . 1 0 `S511 1 . 1 0 `S514 1 . 1 0 `S519 1 . 1 0 `S522 1 . 1 0 `S527 1 . 1 0 `S530 1 . 1 0 `S533 1 . 1 0 `S538 1 . 1 0 `S541 1 . 1 0 `S544 1 . 1 0 ]
+[v _SSP1STATbits SSP1STATbits `VES549  1 e 1 @3989 ]
+"18250
+[v _SSP1CON1 SSP1CON1 `VEuc  1 e 1 @3990 ]
+[s S255 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"18280
+[s S261 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+]
+[s S266 . 1 `uc 1 SSPM01 1 0 :1:0 
+`uc 1 SSPM11 1 0 :1:1 
+`uc 1 SSPM21 1 0 :1:2 
+`uc 1 SSPM31 1 0 :1:3 
+`uc 1 CKP1 1 0 :1:4 
+`uc 1 SSPEN1 1 0 :1:5 
+`uc 1 SSPOV1 1 0 :1:6 
+`uc 1 WCOL1 1 0 :1:7 
+]
+[u S275 . 1 `S255 1 . 1 0 `S261 1 . 1 0 `S266 1 . 1 0 ]
+[v _SSP1CON1bits SSP1CON1bits `VES275  1 e 1 @3990 ]
+"18370
+[v _SSP1CON2 SSP1CON2 `VEuc  1 e 1 @3991 ]
+[s S353 . 1 `uc 1 SEN 1 0 :1:0 
+`uc 1 RSEN 1 0 :1:1 
+`uc 1 PEN 1 0 :1:2 
+`uc 1 RCEN 1 0 :1:3 
+`uc 1 ACKEN 1 0 :1:4 
+`uc 1 ACKDT 1 0 :1:5 
+`uc 1 ACKSTAT 1 0 :1:6 
+`uc 1 GCEN 1 0 :1:7 
+]
+"18417
+[s S362 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADMSK 1 0 :5:1 
+]
+[s S365 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADMSK1 1 0 :1:1 
+`uc 1 ADMSK2 1 0 :1:2 
+`uc 1 ADMSK3 1 0 :1:3 
+`uc 1 ADMSK4 1 0 :1:4 
+`uc 1 ADMSK5 1 0 :1:5 
+]
+[s S372 . 1 `uc 1 SEN1 1 0 :1:0 
+`uc 1 ADMSK11 1 0 :1:1 
+`uc 1 ADMSK21 1 0 :1:2 
+`uc 1 ADMSK31 1 0 :1:3 
+`uc 1 ACKEN1 1 0 :1:4 
+`uc 1 ACKDT1 1 0 :1:5 
+`uc 1 ACKSTAT1 1 0 :1:6 
+`uc 1 GCEN1 1 0 :1:7 
+]
+[s S381 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RSEN1 1 0 :1:1 
+`uc 1 PEN1 1 0 :1:2 
+`uc 1 RCEN1 1 0 :1:3 
+`uc 1 ADMSK41 1 0 :1:4 
+`uc 1 ADMSK51 1 0 :1:5 
+]
+[u S388 . 1 `S353 1 . 1 0 `S362 1 . 1 0 `S365 1 . 1 0 `S372 1 . 1 0 `S381 1 . 1 0 ]
+[v _SSP1CON2bits SSP1CON2bits `VES388  1 e 1 @3991 ]
+[s S57 . 1 `uc 1 INT0EDG 1 0 :1:0 
+`uc 1 INT1EDG 1 0 :1:1 
+`uc 1 INT2EDG 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 IPEN 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"26539
+[s S65 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S69 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S73 . 1 `S57 1 . 1 0 `S65 1 . 1 0 `S69 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES73  1 e 1 @4082 ]
+"354 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+[v _dpowers dpowers `C[10]ul  1 s 40 dpowers ]
+"3 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\errno.c
+[v _errno errno `i  1 e 2 0 ]
+"7 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\powers.c
+[v __powers_ _powers_ `C[13]d  1 e 39 0 ]
+"39
+[v __npowers_ _npowers_ `C[13]d  1 e 39 0 ]
+"32 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\drv_lcd.h
+[v _LCD_I2C_BUFFER LCD_I2C_BUFFER `uc  1 e 1 0 ]
+"85
+[v __displayfunction _displayfunction `uc  1 e 1 0 ]
+"86
+[v __displaycontrol _displaycontrol `uc  1 e 1 0 ]
+"87
+[v __displaymode _displaymode `uc  1 e 1 0 ]
+"53 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\main.c
+[v _vectorString vectorString `[32]uc  1 e 32 0 ]
+[s S820 . 42 `uc 1 busy 1 0 :1:0 
+`uc 1 inUse 1 0 :1:1 
+`uc 1 bufferFree 1 0 :1:2 
+`uc 1 addressNACKCheck 1 0 :1:3 
+`uc 1 address 1 1 `*.39uc 1 data_ptr 2 2 `ui 1 data_length 2 4 `ui 1 time_out 2 6 `ui 1 time_out_value 2 8 `E11982 1 state 1 10 `E11811 1 error 1 11 `[6]*.38(E11816 1 callbackTable 18 12 `[6]*.39v 1 callbackPayload 12 30 ]
+"80 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\mcc_generated_files/drivers/i2c_master.c
+[v _i2c_status i2c_status `S820  1 e 42 0 ]
+"400
+[v _fsmStateTable fsmStateTable `[16]*.38C(E11982  1 e 48 0 ]
+"75 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\mcc_generated_files/i2c1_driver.h
+[v _i2c1_driver_busCollisionISR i2c1_driver_busCollisionISR `*.38(v  1 e 3 0 ]
+"76
+[v _i2c1_driver_i2cISR i2c1_driver_i2cISR `*.38(v  1 e 3 0 ]
+"55 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"87
+[v main@az az `f  1 a 3 0 ]
+"84
+[v main@y y `i  1 a 2 7 ]
+[v main@x x `i  1 a 2 5 ]
+[v main@z z `i  1 a 2 3 ]
+"93
+} 0
+"492 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+{
+[u S1423 . 4 `ul 1 vd 4 0 `d 1 integ 3 0 ]
+"526
+[v sprintf@tmpval tmpval `S1423  1 a 4 62 ]
+"528
+[v sprintf@val val `ul  1 a 4 56 ]
+"516
+[v sprintf@fval fval `d  1 a 3 68 ]
+"504
+[v sprintf@prec prec `i  1 a 2 66 ]
+"516
+[v sprintf@exp exp `i  1 a 2 60 ]
+"508
+[v sprintf@flag flag `us  1 a 2 54 ]
+"494
+[v sprintf@ap ap `[1]*.39v  1 a 2 52 ]
+"499
+[v sprintf@c c `c  1 a 1 71 ]
+"492
+[v sprintf@sp sp `*.39uc  1 p 2 36 ]
+[v sprintf@f f `*.32Cuc  1 p 2 38 ]
+"1541
+} 0
+"425
+[v _scale scale `(d  1 s 3 scale ]
+{
+[v scale@scl scl `c  1 a 1 wreg ]
+[v scale@scl scl `c  1 a 1 wreg ]
+"428
+[v scale@scl scl `c  1 a 1 6 ]
+"441
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\isdigit.c
+[v _isdigit isdigit `(b  1 e 0 0 ]
+{
+[v isdigit@c c `uc  1 a 1 wreg ]
+[v isdigit@c c `uc  1 a 1 wreg ]
+"14
+[v isdigit@c c `uc  1 a 1 23 ]
+"15
+} 0
+"409 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+[v _fround fround `(d  1 s 3 fround ]
+{
+[v fround@prec prec `uc  1 a 1 wreg ]
+[v fround@prec prec `uc  1 a 1 wreg ]
+"413
+[v fround@prec prec `uc  1 a 1 9 ]
+"418
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"11
+[v ___awmod@sign sign `uc  1 a 1 26 ]
+[v ___awmod@counter counter `uc  1 a 1 25 ]
+"8
+[v ___awmod@dividend dividend `i  1 p 2 21 ]
+[v ___awmod@divisor divisor `i  1 p 2 23 ]
+"35
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"11
+[v ___awdiv@quotient quotient `i  1 a 2 33 ]
+"12
+[v ___awdiv@sign sign `uc  1 a 1 32 ]
+[v ___awdiv@counter counter `uc  1 a 1 31 ]
+"8
+[v ___awdiv@dividend dividend `i  1 p 2 27 ]
+[v ___awdiv@divisor divisor `i  1 p 2 29 ]
+"42
+} 0
+"60 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdivl.c
+[v __tdiv_to_l_ _tdiv_to_l_ `(ul  1 e 4 0 ]
+{
+"63
+[v __tdiv_to_l_@quot quot `ul  1 a 4 30 ]
+"62
+[v __tdiv_to_l_@exp1 exp1 `uc  1 a 1 35 ]
+[v __tdiv_to_l_@cntr cntr `uc  1 a 1 34 ]
+"60
+[v __tdiv_to_l_@f1 f1 `f  1 p 3 21 ]
+[v __tdiv_to_l_@f2 f2 `f  1 p 3 24 ]
+"101
+} 0
+"60 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fldivl.c
+[v __div_to_l_ _div_to_l_ `(ul  1 e 4 0 ]
+{
+"63
+[v __div_to_l_@quot quot `ul  1 a 4 27 ]
+"62
+[v __div_to_l_@exp1 exp1 `uc  1 a 1 32 ]
+[v __div_to_l_@cntr cntr `uc  1 a 1 31 ]
+"60
+[v __div_to_l_@f1 f1 `d  1 p 3 21 ]
+[v __div_to_l_@f2 f2 `d  1 p 3 24 ]
+"101
+} 0
+"35 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\lltoft.c
+[v ___lltoft __lltoft `(f  1 e 3 0 ]
+{
+"37
+[v ___lltoft@exp exp `uc  1 a 1 37 ]
+"35
+[v ___lltoft@c c `ul  1 p 4 29 ]
+"46
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+{
+"11
+[v ___llmod@counter counter `uc  1 a 1 29 ]
+"8
+[v ___llmod@dividend dividend `ul  1 p 4 21 ]
+[v ___llmod@divisor divisor `ul  1 p 4 25 ]
+"26
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"11
+[v ___lldiv@quotient quotient `ul  1 a 4 29 ]
+"12
+[v ___lldiv@counter counter `uc  1 a 1 33 ]
+"8
+[v ___lldiv@dividend dividend `ul  1 p 4 21 ]
+[v ___lldiv@divisor divisor `ul  1 p 4 25 ]
+"31
+} 0
+"44 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+{
+"47
+[v ___fttol@lval lval `ul  1 a 4 17 ]
+"46
+[v ___fttol@exp1 exp1 `uc  1 a 1 21 ]
+[v ___fttol@sign1 sign1 `uc  1 a 1 16 ]
+"44
+[v ___fttol@f1 f1 `f  1 p 3 7 ]
+"73
+} 0
+"39 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\drv_qmc5883l.c
+[v _XYZ_azimuth XYZ_azimuth `(f  1 e 3 0 ]
+{
+"41
+[v XYZ_azimuth@azimuth azimuth `f  1 a 3 78 ]
+"39
+[v XYZ_azimuth@a a `*.39i  1 p 2 71 ]
+[v XYZ_azimuth@b b `*.39i  1 p 2 73 ]
+"43
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\atan2.c
+[v _atan2 atan2 `(d  1 e 3 0 ]
+{
+"10
+[v atan2@v v `d  1 a 3 68 ]
+"8
+[v atan2@y y `d  1 p 3 56 ]
+[v atan2@x x `d  1 p 3 59 ]
+"47
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\atan.c
+[v _atan atan `(d  1 e 3 0 ]
+{
+"28
+[v atan@val val `d  1 a 3 53 ]
+[v atan@val_squared val_squared `d  1 a 3 50 ]
+[v atan@x x `d  1 a 3 46 ]
+[v atan@y y `d  1 a 3 43 ]
+"27
+[v atan@recip recip `uc  1 a 1 49 ]
+"8
+[v atan@f f `d  1 p 3 40 ]
+"10
+[v atan@coeff_a coeff_a `C[6]d  1 s 18 coeff_a ]
+"19
+[v atan@coeff_b coeff_b `C[5]d  1 s 15 coeff_b ]
+"41
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fabs.c
+[v _fabs fabs `(d  1 e 3 0 ]
+{
+[v fabs@d d `d  1 p 3 18 ]
+"9
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftneg.c
+[v ___ftneg __ftneg `(f  1 e 3 0 ]
+{
+[v ___ftneg@f1 f1 `f  1 p 3 15 ]
+"20
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\evalpoly.c
+[v _eval_poly eval_poly `(d  1 e 3 0 ]
+{
+"6
+[v eval_poly@res res `d  1 a 3 37 ]
+"4
+[v eval_poly@x x `d  1 p 3 30 ]
+[v eval_poly@d d `*.32Cd  1 p 2 33 ]
+[v eval_poly@n n `i  1 p 2 35 ]
+"12
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 39 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 35 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 37 ]
+"53
+} 0
+"62 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+{
+"65
+[v ___ftmul@f3_as_product f3_as_product `um  1 a 3 51 ]
+"64
+[v ___ftmul@sign sign `uc  1 a 1 55 ]
+[v ___ftmul@cntr cntr `uc  1 a 1 54 ]
+[v ___ftmul@exp exp `uc  1 a 1 50 ]
+"62
+[v ___ftmul@f1 f1 `f  1 p 3 41 ]
+[v ___ftmul@f2 f2 `f  1 p 3 44 ]
+"157
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftge.c
+[v ___ftge __ftge `(b  1 e 0 0 ]
+{
+[v ___ftge@ff1 ff1 `f  1 p 3 21 ]
+[v ___ftge@ff2 ff2 `f  1 p 3 24 ]
+"13
+} 0
+"54 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+{
+"60
+[v ___ftdiv@f3 f3 `f  1 a 3 10 ]
+"59
+[v ___ftdiv@sign sign `uc  1 a 1 14 ]
+[v ___ftdiv@exp exp `uc  1 a 1 13 ]
+[v ___ftdiv@cntr cntr `uc  1 a 1 9 ]
+"54
+[v ___ftdiv@f1 f1 `f  1 p 3 0 ]
+[v ___ftdiv@f2 f2 `f  1 p 3 3 ]
+"86
+} 0
+"20 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+{
+[v ___ftsub@f1 f1 `f  1 p 3 30 ]
+[v ___ftsub@f2 f2 `f  1 p 3 33 ]
+"27
+} 0
+"86 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+{
+"88
+[v ___ftadd@exp1 exp1 `uc  1 a 1 29 ]
+[v ___ftadd@exp2 exp2 `uc  1 a 1 28 ]
+[v ___ftadd@sign sign `uc  1 a 1 27 ]
+"86
+[v ___ftadd@f1 f1 `f  1 p 3 18 ]
+[v ___ftadd@f2 f2 `f  1 p 3 21 ]
+"148
+} 0
+"32 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+{
+"34
+[v ___awtoft@sign sign `uc  1 a 1 32 ]
+"32
+[v ___awtoft@c c `i  1 p 2 29 ]
+"42
+} 0
+"62 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+{
+[v ___ftpack@arg arg `um  1 p 3 21 ]
+[v ___ftpack@exp exp `uc  1 p 1 24 ]
+[v ___ftpack@sign sign `uc  1 p 1 25 ]
+"86
+} 0
+"45 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\drv_qmc5883l.c
+[v _XYZ_Read XYZ_Read `(v  1 e 1 0 ]
+{
+"50
+[v XYZ_Read@readBuffer readBuffer `[6]uc  1 a 6 47 ]
+"45
+[v XYZ_Read@x x `*.39i  1 p 2 37 ]
+[v XYZ_Read@y y `*.39i  1 p 2 39 ]
+[v XYZ_Read@z z `*.39i  1 p 2 41 ]
+"47
+[v XYZ_Read@wrtBuffer wrtBuffer `[1]uc  1 s 1 wrtBuffer ]
+"55
+} 0
+"156 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\mcc_generated_files/drivers/i2c_simple_master.c
+[v _i2c_readNBytes i2c_readNBytes `(v  1 e 1 0 ]
+{
+[v i2c_readNBytes@address address `uc  1 a 1 wreg ]
+[v i2c_readNBytes@address address `uc  1 a 1 wreg ]
+[v i2c_readNBytes@data data `*.39v  1 p 2 26 ]
+[v i2c_readNBytes@len len `ui  1 p 2 28 ]
+[v i2c_readNBytes@address address `uc  1 a 1 30 ]
+"162
+} 0
+"217 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\mcc_generated_files/drivers/i2c_master.c
+[v _i2c_masterRead i2c_masterRead `(E11811  1 e 1 0 ]
+{
+"220
+} 0
+"7 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\drv_qmc5883l.c
+[v _XYZ_Init XYZ_Init `(v  1 e 1 0 ]
+{
+"19
+} 0
+"29
+[v _XYZ_setMode XYZ_setMode `(v  1 e 1 0 ]
+{
+[v XYZ_setMode@mode mode `uc  1 a 1 wreg ]
+[v XYZ_setMode@mode mode `uc  1 a 1 wreg ]
+[v XYZ_setMode@odr odr `uc  1 p 1 39 ]
+[v XYZ_setMode@rng rng `uc  1 p 1 40 ]
+[v XYZ_setMode@osr osr `uc  1 p 1 41 ]
+"31
+[v XYZ_setMode@mode mode `uc  1 a 1 42 ]
+"32
+} 0
+"21
+[v _XYZ_WriteReg XYZ_WriteReg `(v  1 e 1 0 ]
+{
+[v XYZ_WriteReg@reg reg `uc  1 a 1 wreg ]
+[v XYZ_WriteReg@reg reg `uc  1 a 1 wreg ]
+[v XYZ_WriteReg@val val `uc  1 p 1 37 ]
+"23
+[v XYZ_WriteReg@wrtBuffer wrtBuffer `[2]uc  1 s 2 wrtBuffer ]
+[v XYZ_WriteReg@reg reg `uc  1 a 1 38 ]
+"27
+} 0
+"50 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"56
+} 0
+"72
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+{
+"86
+} 0
+"57 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"115
+} 0
+"58 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"70
+} 0
+"52 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+{
+"56
+} 0
+"92 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\drv_lcd.c
+[v _LCD_setCursor LCD_setCursor `(v  1 e 1 0 ]
+{
+[v LCD_setCursor@columna columna `uc  1 a 1 wreg ]
+[v LCD_setCursor@columna columna `uc  1 a 1 wreg ]
+[v LCD_setCursor@fila fila `uc  1 p 1 43 ]
+[v LCD_setCursor@columna columna `uc  1 a 1 44 ]
+"109
+} 0
+"111
+[v _LCD_print LCD_print `(uc  1 e 1 0 ]
+{
+"113
+[v LCD_print@cs cs `uc  1 a 1 45 ]
+"111
+[v LCD_print@s s `*.34Cuc  1 p 2 43 ]
+"120
+} 0
+"228
+[v _LCD_write LCD_write `(v  1 e 1 0 ]
+{
+[v LCD_write@value value `uc  1 a 1 wreg ]
+[v LCD_write@value value `uc  1 a 1 wreg ]
+"230
+[v LCD_write@value value `uc  1 a 1 42 ]
+"231
+} 0
+"6
+[v _LCD_init LCD_init `(v  1 e 1 0 ]
+{
+"77
+} 0
+"130
+[v _LCD_display LCD_display `(v  1 e 1 0 ]
+{
+"134
+} 0
+"80
+[v _LCD_clear LCD_clear `(v  1 e 1 0 ]
+{
+"84
+} 0
+"223
+[v _LCD_command LCD_command `(v  1 e 1 0 ]
+{
+[v LCD_command@value value `uc  1 a 1 wreg ]
+[v LCD_command@value value `uc  1 a 1 wreg ]
+"225
+[v LCD_command@value value `uc  1 a 1 42 ]
+"226
+} 0
+"239
+[v _LCD_send LCD_send `(v  1 e 1 0 ]
+{
+[v LCD_send@value value `uc  1 a 1 wreg ]
+[v LCD_send@value value `uc  1 a 1 wreg ]
+[v LCD_send@mode mode `uc  1 p 1 40 ]
+"241
+[v LCD_send@value value `uc  1 a 1 41 ]
+"244
+} 0
+"302
+[v _LCD_write4bits LCD_write4bits `(v  1 e 1 0 ]
+{
+[v LCD_write4bits@a a `uc  1 a 1 wreg ]
+[v LCD_write4bits@a a `uc  1 a 1 wreg ]
+"337
+[v LCD_write4bits@a a `uc  1 a 1 39 ]
+"340
+} 0
+"292
+[v _LCD_pulseEnable LCD_pulseEnable `(v  1 e 1 0 ]
+{
+"300
+} 0
+"259
+[v _LCD_EN_SET LCD_EN_SET `(v  1 e 1 0 ]
+{
+[v LCD_EN_SET@value value `uc  1 a 1 wreg ]
+[v LCD_EN_SET@value value `uc  1 a 1 wreg ]
+"264
+[v LCD_EN_SET@value value `uc  1 a 1 37 ]
+"270
+} 0
+"246
+[v _LCD_RS_SET LCD_RS_SET `(v  1 e 1 0 ]
+{
+[v LCD_RS_SET@value value `uc  1 a 1 wreg ]
+[v LCD_RS_SET@value value `uc  1 a 1 wreg ]
+"251
+[v LCD_RS_SET@value value `uc  1 a 1 37 ]
+"257
+} 0
+"273
+[v _LCD_BL_SET LCD_BL_SET `(v  1 e 1 0 ]
+{
+[v LCD_BL_SET@value value `uc  1 a 1 wreg ]
+[v LCD_BL_SET@value value `uc  1 a 1 wreg ]
+"275
+[v LCD_BL_SET@value value `uc  1 a 1 37 ]
+"280
+} 0
+"344
+[v _LCD_writeI2C LCD_writeI2C `(v  1 e 1 0 ]
+{
+"346
+[v LCD_writeI2C@wrtBuffer wrtBuffer `[1]uc  1 s 1 wrtBuffer ]
+"349
+} 0
+"48 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\mcc_generated_files/drivers/i2c_simple_master.c
+[v _i2c_writeNBytes i2c_writeNBytes `(v  1 e 1 0 ]
+{
+[v i2c_writeNBytes@address address `uc  1 a 1 wreg ]
+[v i2c_writeNBytes@address address `uc  1 a 1 wreg ]
+[v i2c_writeNBytes@data data `*.39v  1 p 2 32 ]
+[v i2c_writeNBytes@len len `ui  1 p 2 34 ]
+[v i2c_writeNBytes@address address `uc  1 a 1 36 ]
+"55
+} 0
+"99 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\mcc_generated_files/drivers/i2c_master.c
+[v _i2c_setAddressNACKCallback i2c_setAddressNACKCallback `(v  1 e 1 0 ]
+{
+[v i2c_setAddressNACKCallback@cb cb `*.38(E11816  1 p 3 27 ]
+[v i2c_setAddressNACKCallback@p p `*.2v  1 p 2 30 ]
+"102
+} 0
+"116
+[v _i2c_open i2c_open `(E11811  1 e 1 0 ]
+{
+[v i2c_open@address address `uc  1 a 1 wreg ]
+"118
+[v i2c_open@ret ret `E11811  1 a 1 25 ]
+"116
+[v i2c_open@address address `uc  1 a 1 wreg ]
+"118
+[v i2c_open@address address `uc  1 a 1 24 ]
+"154
+} 0
+"262 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\mcc_generated_files/i2c1_driver.c
+[v _i2c1_driver_setI2cISR i2c1_driver_setI2cISR `T(v  1 e 1 0 ]
+{
+[v i2c1_driver_setI2cISR@f f `*.3v  1 p 3 21 ]
+"264
+} 0
+"258
+[v _i2c1_driver_setBusCollisionISR i2c1_driver_setBusCollisionISR `T(v  1 e 1 0 ]
+{
+[v i2c1_driver_setBusCollisionISR@f f `*.3v  1 p 3 21 ]
+"260
+} 0
+"83
+[v _i2c1_driver_open i2c1_driver_open `(b  1 e 0 0 ]
+{
+"95
+} 0
+"222 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\mcc_generated_files/drivers/i2c_master.c
+[v _i2c_masterWrite i2c_masterWrite `(E11811  1 e 1 0 ]
+{
+"225
+} 0
+"193
+[v _i2c_masterOperation i2c_masterOperation `(E11811  1 e 1 0 ]
+{
+[v i2c_masterOperation@read read `uc  1 a 1 wreg ]
+"195
+[v i2c_masterOperation@ret ret `E11811  1 a 1 25 ]
+"193
+[v i2c_masterOperation@read read `uc  1 a 1 wreg ]
+"195
+[v i2c_masterOperation@read read `uc  1 a 1 24 ]
+"215
+} 0
+"43 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\mcc_generated_files/i2c1_driver.c
+[v _mssp1_IRQisEnabled mssp1_IRQisEnabled `T(b  1 e 0 0 ]
+{
+"46
+} 0
+"230 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\mcc_generated_files/drivers/i2c_master.c
+[v _i2c_poller i2c_poller `T(v  1 e 1 0 ]
+{
+"237
+} 0
+"68 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\mcc_generated_files/i2c1_driver.c
+[v _mssp1_waitForEvent mssp1_waitForEvent `T(v  1 e 1 0 ]
+{
+[v mssp1_waitForEvent@timeout timeout `*.2ui  1 p 2 21 ]
+"81
+} 0
+"419 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\mcc_generated_files/drivers/i2c_master.c
+[v _i2c_ISR i2c_ISR `(v  1 e 1 0 ]
+{
+"433
+} 0
+"357
+[v _do_I2C_RX do_I2C_RX `(E11982  1 s 1 do_I2C_RX ]
+{
+"380
+} 0
+"333
+[v _do_I2C_TX do_I2C_TX `(E11982  1 s 1 do_I2C_TX ]
+{
+"355
+} 0
+"319
+[v _do_I2C_DO_ADDRESS_NACK do_I2C_DO_ADDRESS_NACK `(E11982  1 s 1 do_I2C_DO_ADDRESS_NACK ]
+{
+"331
+} 0
+"311
+[v _do_I2C_DO_NACK_RESTART do_I2C_DO_NACK_RESTART `(E11982  1 s 1 do_I2C_DO_NACK_RESTART ]
+{
+"315
+} 0
+"305
+[v _do_I2C_DO_NACK_STOP do_I2C_DO_NACK_STOP `(E11982  1 s 1 do_I2C_DO_NACK_STOP ]
+{
+"309
+} 0
+"299
+[v _do_I2C_DO_ACK do_I2C_DO_ACK `(E11982  1 s 1 do_I2C_DO_ACK ]
+{
+"303
+} 0
+"292
+[v _do_I2C_RCEN do_I2C_RCEN `(E11982  1 s 1 do_I2C_RCEN ]
+{
+"297
+} 0
+"285
+[v _do_I2C_SEND_ADR_WRITE do_I2C_SEND_ADR_WRITE `(E11982  1 s 1 do_I2C_SEND_ADR_WRITE ]
+{
+"290
+} 0
+"278
+[v _do_I2C_SEND_ADR_READ do_I2C_SEND_ADR_READ `(E11982  1 s 1 do_I2C_SEND_ADR_READ ]
+{
+"283
+} 0
+"272
+[v _do_I2C_SEND_STOP do_I2C_SEND_STOP `(E11982  1 s 1 do_I2C_SEND_STOP ]
+{
+"276
+} 0
+"266
+[v _do_I2C_SEND_RESTART do_I2C_SEND_RESTART `(E11982  1 s 1 do_I2C_SEND_RESTART ]
+{
+"270
+} 0
+"260
+[v _do_I2C_SEND_RESTART_WRITE do_I2C_SEND_RESTART_WRITE `(E11982  1 s 1 do_I2C_SEND_RESTART_WRITE ]
+{
+"264
+} 0
+"254
+[v _do_I2C_SEND_RESTART_READ do_I2C_SEND_RESTART_READ `(E11982  1 s 1 do_I2C_SEND_RESTART_READ ]
+{
+"258
+} 0
+"247
+[v _do_I2C_IDLE do_I2C_IDLE `(E11982  1 s 1 do_I2C_IDLE ]
+{
+"252
+} 0
+"239
+[v _do_I2C_RESET do_I2C_RESET `(E11982  1 s 1 do_I2C_RESET ]
+{
+"245
+} 0
+"382
+[v _do_I2C_TX_EMPTY do_I2C_TX_EMPTY `(E11982  1 s 1 do_I2C_TX_EMPTY ]
+{
+"397
+} 0
+"58 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\mcc_generated_files/i2c1_driver.c
+[v _mssp1_setIRQ mssp1_setIRQ `T(v  1 e 1 0 ]
+{
+"61
+} 0
+"161
+[v _i2c1_driver_isNACK i2c1_driver_isNACK `T(b  1 e 0 0 ]
+{
+"164
+} 0
+"186
+[v _i2c1_driver_TXData i2c1_driver_TXData `T(v  1 e 1 0 ]
+{
+[v i2c1_driver_TXData@d d `uc  1 a 1 wreg ]
+[v i2c1_driver_TXData@d d `uc  1 a 1 wreg ]
+"188
+[v i2c1_driver_TXData@d d `uc  1 a 1 21 ]
+"189
+} 0
+"171
+[v _i2c1_driver_getRXData i2c1_driver_getRXData `T(uc  1 e 1 0 ]
+{
+"174
+} 0
+"202
+[v _i2c1_driver_sendNACK i2c1_driver_sendNACK `T(v  1 e 1 0 ]
+{
+"206
+} 0
+"141
+[v _i2c1_driver_resetBus i2c1_driver_resetBus `T(v  1 e 1 0 ]
+{
+"144
+} 0
+"166
+[v _i2c1_driver_startRX i2c1_driver_startRX `T(v  1 e 1 0 ]
+{
+"169
+} 0
+"134 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\mcc_generated_files/drivers/i2c_simple_master.c
+[v _rdBlkRegCompleteHandler rdBlkRegCompleteHandler `(E97  1 s 1 rdBlkRegCompleteHandler ]
+{
+[v rdBlkRegCompleteHandler@p p `*.39v  1 p 2 32 ]
+"139
+} 0
+"87
+[v _rd2RegCompleteHandler rd2RegCompleteHandler `(E97  1 s 1 rd2RegCompleteHandler ]
+{
+[v rd2RegCompleteHandler@p p `*.39v  1 p 2 32 ]
+"92
+} 0
+"58
+[v _rd1RegCompleteHandler rd1RegCompleteHandler `(E97  1 s 1 rd1RegCompleteHandler ]
+{
+[v rd1RegCompleteHandler@p p `*.39v  1 p 2 32 ]
+"63
+} 0
+"31
+[v _wr1RegCompleteHandler wr1RegCompleteHandler `(E97  1 s 1 wr1RegCompleteHandler ]
+{
+[v wr1RegCompleteHandler@p p `*.39v  1 p 2 32 ]
+"36
+} 0
+"35 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\mcc_generated_files/drivers/i2c_types.c
+[v _i2c_restartWrite i2c_restartWrite `(E96  1 e 1 0 ]
+{
+"38
+} 0
+"448 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\mcc_generated_files/drivers/i2c_master.c
+[v _returnReset returnReset `(E11816  1 s 1 returnReset ]
+{
+"451
+} 0
+"443
+[v _returnStop returnStop `(E11816  1 s 1 returnStop ]
+{
+[v returnStop@p p `*.39v  1 p 2 32 ]
+"446
+} 0
+"110 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\mcc_generated_files/drivers/i2c_simple_master.c
+[v _wr2RegCompleteHandler wr2RegCompleteHandler `(E97  1 s 1 wr2RegCompleteHandler ]
+{
+[v wr2RegCompleteHandler@p p `*.39v  1 p 2 32 ]
+"115
+} 0
+"89 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\mcc_generated_files/drivers/i2c_master.c
+[v _i2c_setDataCompleteCallback i2c_setDataCompleteCallback `(v  1 e 1 0 ]
+{
+[v i2c_setDataCompleteCallback@cb cb `*.38(E11816  1 p 3 27 ]
+[v i2c_setDataCompleteCallback@p p `*.39v  1 p 2 30 ]
+"92
+} 0
+"453
+[v _setCallBack setCallBack `(v  1 s 1 setCallBack ]
+{
+[v setCallBack@idx idx `E12000  1 a 1 wreg ]
+[v setCallBack@idx idx `E12000  1 a 1 wreg ]
+[v setCallBack@cb cb `*.38(E11816  1 p 3 21 ]
+[v setCallBack@p p `*.39v  1 p 2 24 ]
+"455
+[v setCallBack@idx idx `E12000  1 a 1 26 ]
+"465
+} 0
+"184
+[v _i2c_setBuffer i2c_setBuffer `(v  1 e 1 0 ]
+{
+[v i2c_setBuffer@buffer buffer `*.39v  1 p 2 21 ]
+[v i2c_setBuffer@bufferSize bufferSize `ui  1 p 2 23 ]
+"192
+} 0
+"156 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\mcc_generated_files/i2c1_driver.c
+[v _i2c1_driver_stop i2c1_driver_stop `T(v  1 e 1 0 ]
+{
+"159
+} 0
+"151
+[v _i2c1_driver_restart i2c1_driver_restart `T(v  1 e 1 0 ]
+{
+"154
+} 0
+"196
+[v _i2c1_driver_sendACK i2c1_driver_sendACK `T(v  1 e 1 0 ]
+{
+"200
+} 0
+"146
+[v _i2c1_driver_start i2c1_driver_start `T(v  1 e 1 0 ]
+{
+"149
+} 0
+"162 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\mcc_generated_files/drivers/i2c_master.c
+[v _i2c_close i2c_close `(E11811  1 e 1 0 ]
+{
+"164
+[v i2c_close@ret ret `E11811  1 a 1 21 ]
+"175
+} 0
+"48 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\mcc_generated_files/i2c1_driver.c
+[v _mssp1_disableIRQ mssp1_disableIRQ `T(v  1 e 1 0 ]
+{
+"51
+} 0
+"53
+[v _mssp1_clearIRQ mssp1_clearIRQ `T(v  1 e 1 0 ]
+{
+"56
+} 0
+"58 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+{
+"80
+} 0
+"419 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\mcc_generated_files/drivers/i2c_master.c
+[v i2_i2c_ISR i2c_ISR `(v  1 e 1 0 ]
+{
+"433
+} 0
+"53 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\mcc_generated_files/i2c1_driver.c
+[v i2_mssp1_clearIRQ mssp1_clearIRQ `T(v  1 e 1 0 ]
+{
+"56
+} 0
+"357 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\mcc_generated_files/drivers/i2c_master.c
+[v i2_do_I2C_RX do_I2C_RX `(E11982  1 s 1 i2_do_I2C_RX ]
+{
+"380
+} 0
+"333
+[v i2_do_I2C_TX do_I2C_TX `(E11982  1 s 1 i2_do_I2C_TX ]
+{
+"355
+} 0
+"319
+[v i2_do_I2C_DO_ADDRESS_NACK do_I2C_DO_ADDRESS_NACK `(E11982  1 s 1 i2_do_I2C_DO_ADDRESS_NACK ]
+{
+"331
+} 0
+"311
+[v i2_do_I2C_DO_NACK_RESTART do_I2C_DO_NACK_RESTART `(E11982  1 s 1 i2_do_I2C_DO_NACK_RESTART ]
+{
+"315
+} 0
+"305
+[v i2_do_I2C_DO_NACK_STOP do_I2C_DO_NACK_STOP `(E11982  1 s 1 i2_do_I2C_DO_NACK_STOP ]
+{
+"309
+} 0
+"299
+[v i2_do_I2C_DO_ACK do_I2C_DO_ACK `(E11982  1 s 1 i2_do_I2C_DO_ACK ]
+{
+"303
+} 0
+"292
+[v i2_do_I2C_RCEN do_I2C_RCEN `(E11982  1 s 1 i2_do_I2C_RCEN ]
+{
+"297
+} 0
+"285
+[v i2_do_I2C_SEND_ADR_WRITE do_I2C_SEND_ADR_WRITE `(E11982  1 s 1 i2_do_I2C_SEND_ADR_WRITE ]
+{
+"290
+} 0
+"278
+[v i2_do_I2C_SEND_ADR_READ do_I2C_SEND_ADR_READ `(E11982  1 s 1 i2_do_I2C_SEND_ADR_READ ]
+{
+"283
+} 0
+"272
+[v i2_do_I2C_SEND_STOP do_I2C_SEND_STOP `(E11982  1 s 1 i2_do_I2C_SEND_STOP ]
+{
+"276
+} 0
+"266
+[v i2_do_I2C_SEND_RESTART do_I2C_SEND_RESTART `(E11982  1 s 1 i2_do_I2C_SEND_RESTART ]
+{
+"270
+} 0
+"260
+[v i2_do_I2C_SEND_RESTART_WRITE do_I2C_SEND_RESTART_WRITE `(E11982  1 s 1 i2_do_I2C_SEND_RESTART_WRITE ]
+{
+"264
+} 0
+"254
+[v i2_do_I2C_SEND_RESTART_READ do_I2C_SEND_RESTART_READ `(E11982  1 s 1 i2_do_I2C_SEND_RESTART_READ ]
+{
+"258
+} 0
+"247
+[v i2_do_I2C_IDLE do_I2C_IDLE `(E11982  1 s 1 i2_do_I2C_IDLE ]
+{
+"252
+} 0
+"239
+[v i2_do_I2C_RESET do_I2C_RESET `(E11982  1 s 1 i2_do_I2C_RESET ]
+{
+"245
+} 0
+"382
+[v i2_do_I2C_TX_EMPTY do_I2C_TX_EMPTY `(E11982  1 s 1 i2_do_I2C_TX_EMPTY ]
+{
+"397
+} 0
+"58 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\mcc_generated_files/i2c1_driver.c
+[v i2_mssp1_setIRQ mssp1_setIRQ `T(v  1 e 1 0 ]
+{
+"61
+} 0
+"161
+[v i2_i2c1_driver_isNACK i2c1_driver_isNACK `T(b  1 e 0 0 ]
+{
+"164
+} 0
+"186
+[v i2_i2c1_driver_TXData i2c1_driver_TXData `T(v  1 e 1 0 ]
+{
+[v i2i2c1_driver_TXData@d d `uc  1 a 1 wreg ]
+[v i2i2c1_driver_TXData@d d `uc  1 a 1 wreg ]
+"188
+[v i2i2c1_driver_TXData@d d `uc  1 a 1 0 ]
+"189
+} 0
+"171
+[v i2_i2c1_driver_getRXData i2c1_driver_getRXData `T(uc  1 e 1 0 ]
+{
+"174
+} 0
+"202
+[v i2_i2c1_driver_sendNACK i2c1_driver_sendNACK `T(v  1 e 1 0 ]
+{
+"206
+} 0
+"141
+[v i2_i2c1_driver_resetBus i2c1_driver_resetBus `T(v  1 e 1 0 ]
+{
+"144
+} 0
+"166
+[v i2_i2c1_driver_startRX i2c1_driver_startRX `T(v  1 e 1 0 ]
+{
+"169
+} 0
+"134 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\mcc_generated_files/drivers/i2c_simple_master.c
+[v i2_rdBlkRegCompleteHandler rdBlkRegCompleteHandler `(E97  1 s 1 i2_rdBlkRegCompleteHandler ]
+{
+[v i2rdBlkRegCompleteHandler@p p `*.39v  1 p 2 11 ]
+"139
+} 0
+"87
+[v i2_rd2RegCompleteHandler rd2RegCompleteHandler `(E97  1 s 1 i2_rd2RegCompleteHandler ]
+{
+[v i2rd2RegCompleteHandler@p p `*.39v  1 p 2 11 ]
+"92
+} 0
+"58
+[v i2_rd1RegCompleteHandler rd1RegCompleteHandler `(E97  1 s 1 i2_rd1RegCompleteHandler ]
+{
+[v i2rd1RegCompleteHandler@p p `*.39v  1 p 2 11 ]
+"63
+} 0
+"31
+[v i2_wr1RegCompleteHandler wr1RegCompleteHandler `(E97  1 s 1 i2_wr1RegCompleteHandler ]
+{
+[v i2wr1RegCompleteHandler@p p `*.39v  1 p 2 11 ]
+"36
+} 0
+"35 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\mcc_generated_files/drivers/i2c_types.c
+[v i2_i2c_restartWrite i2c_restartWrite `(E96  1 e 1 0 ]
+{
+"38
+} 0
+"448 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\mcc_generated_files/drivers/i2c_master.c
+[v i2_returnReset returnReset `(E11816  1 s 1 i2_returnReset ]
+{
+"451
+} 0
+"443
+[v i2_returnStop returnStop `(E11816  1 s 1 i2_returnStop ]
+{
+[v i2returnStop@p p `*.39v  1 p 2 11 ]
+"446
+} 0
+"110 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\mcc_generated_files/drivers/i2c_simple_master.c
+[v i2_wr2RegCompleteHandler wr2RegCompleteHandler `(E97  1 s 1 i2_wr2RegCompleteHandler ]
+{
+[v i2wr2RegCompleteHandler@p p `*.39v  1 p 2 11 ]
+"115
+} 0
+"89 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\mcc_generated_files/drivers/i2c_master.c
+[v i2_i2c_setDataCompleteCallback i2c_setDataCompleteCallback `(v  1 e 1 0 ]
+{
+[v i2i2c_setDataCompleteCallback@cb cb `*.38(E11816  1 p 3 6 ]
+[v i2i2c_setDataCompleteCallback@p p `*.39v  1 p 2 9 ]
+"92
+} 0
+"453
+[v i2_setCallBack setCallBack `(v  1 s 1 i2_setCallBack ]
+{
+[v i2setCallBack@idx idx `E12000  1 a 1 wreg ]
+[v i2setCallBack@idx idx `E12000  1 a 1 wreg ]
+[v i2setCallBack@cb cb `*.38(E11816  1 p 3 0 ]
+[v i2setCallBack@p p `*.39v  1 p 2 3 ]
+"455
+[v i2setCallBack@idx idx `E12000  1 a 1 5 ]
+"465
+} 0
+"184
+[v i2_i2c_setBuffer i2c_setBuffer `(v  1 e 1 0 ]
+{
+[v i2i2c_setBuffer@buffer buffer `*.39v  1 p 2 0 ]
+[v i2i2c_setBuffer@bufferSize bufferSize `ui  1 p 2 2 ]
+"192
+} 0
+"156 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\mcc_generated_files/i2c1_driver.c
+[v i2_i2c1_driver_stop i2c1_driver_stop `T(v  1 e 1 0 ]
+{
+"159
+} 0
+"151
+[v i2_i2c1_driver_restart i2c1_driver_restart `T(v  1 e 1 0 ]
+{
+"154
+} 0
+"196
+[v i2_i2c1_driver_sendACK i2c1_driver_sendACK `T(v  1 e 1 0 ]
+{
+"200
+} 0
+"435 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\mcc_generated_files/drivers/i2c_master.c
+[v _i2c_busCollisionISR i2c_busCollisionISR `(v  1 e 1 0 ]
+{
+"438
+} 0
+"253 C:\Users\quiqu\Dropbox\Datos de Programas\MPLABX\Prueba_I2C_47K40.X\mcc_generated_files/i2c1_driver.c
+[v _i2c1_driver_clearBusCollision i2c1_driver_clearBusCollision `T(v  1 e 1 0 ]
+{
+"256
+} 0

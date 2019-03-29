@@ -1,0 +1,8 @@
+﻿X001.DWG: En chapa galvanizada 1mm preferiblemente ó 0.7mm. 1 unidad. 
+
+^^ Solicito aparte cotización por los plegados (Ver X001_PLIEGES.DWG ó archivo SLDPRT Adjunto).
+
+G001 - 2 - 3.DWG: En aluminio espesor 5mm. 2 Unidades de c/u.
+G004 - 5.DWG: En aluminio espesor 5mm. 4 Unidades de c/u.
+
+D001.DWG: En aluminio espesor 3mm. 1 Unidad.
