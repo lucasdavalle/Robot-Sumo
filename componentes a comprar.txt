@@ -1,5 +1,2 @@
 4 conectores 3 pines
 6 conector de 4 pines
-tira de 40 pines macho largos 2.54mm
-4 bc547
-2 cap 100uf 16v
