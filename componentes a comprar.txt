@@ -1,2 +1,4 @@
 4 conectores 3 pines
-6 conector de 4 pines
+6 conector de 4 
+
+6  arduinos 
